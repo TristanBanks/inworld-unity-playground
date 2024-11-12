@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1255567838}
-  m_IndirectSpecularColor: {r: 0.43668443, g: 0.48427904, b: 0.5645305, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5444,6 +5443,18 @@ PrefabInstance:
     - target: {fileID: 6364940321971708486, guid: 2d36525cec1ebc349b8abfeb613a49cf, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824202508536700761, guid: 2d36525cec1ebc349b8abfeb613a49cf, type: 3}
+      propertyPath: m_InworldSceneMapping.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824202508536700761, guid: 2d36525cec1ebc349b8abfeb613a49cf, type: 3}
+      propertyPath: m_InworldSceneMapping.Array.data[8].UnitySceneName
+      value: MultiAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824202508536700761, guid: 2d36525cec1ebc349b8abfeb613a49cf, type: 3}
+      propertyPath: m_InworldSceneMapping.Array.data[8].InworldSceneName
+      value: multi-agent_room
       objectReference: {fileID: 0}
     - target: {fileID: 6879512376698464817, guid: 2d36525cec1ebc349b8abfeb613a49cf, type: 3}
       propertyPath: m_AnchorMax.x
